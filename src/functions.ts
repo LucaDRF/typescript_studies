@@ -24,3 +24,18 @@ const promise = async () : Promise<number> => { // can only be used with es6+++
 
 const result = sla('50');
 console.log(result);
+
+let undefinedFunction:  Function; // ensure that variable is a Function
+let definedFunction: (name1: string, name2: string) => number;
+// ensure that variable has a function with the specified parameters and return type
+// can be used to specifie the types of the callback function
+
+undefinedFunction = sla;
+definedFunction = sla;
+
+const result1 = undefinedFunction('2');
+const result2 = definedFunction('2', '5');
+
+console.log(result1);
+console.log(result2);
+// result1 has type any because the Funcion was not specified, whereas result2 has the right type since its defined
