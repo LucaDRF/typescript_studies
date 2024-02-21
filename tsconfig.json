@@ -1,11 +1,20 @@
 {
     "compilerOptions": {
       "target": "es6",
-      "module": "commonjs",
+      // "module": "commonjs",
+      "moduleResolution": "node",
       "strict": true,
       "outDir": "./dist",
       "rootDir": "./src",
-      "ignoreDeprecations": "5.0"
+      "ignoreDeprecations": "5.0",
+      "removeComments": true, // remove comments from ts to compiled js files,
+      "noEmitOnError": true, // does not compile to js if file has any error 
+      "sourceMap": true, // enable ts files to appear on sources from the page (good for debuging)
+
+      /* Additional Checks */
+      // "noUnusedLocals": true, Report errors on unused local variables.
+      // "noUnusedParameters": true, Report errors on unused parameters.
+      "noImplicitReturns": true, // Report error when not all code paths in function return a value if the function returns something
     },
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules"], // is excluded by default
 }

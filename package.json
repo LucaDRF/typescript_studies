@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc & node dist/ENV",
+    "build": "tsc",
+    "build_watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
