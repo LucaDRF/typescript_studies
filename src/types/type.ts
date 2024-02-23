@@ -34,3 +34,5 @@ const personArray: Person = [{
   age: 20,
   gender: 'male'
 }];
+
+export {};
