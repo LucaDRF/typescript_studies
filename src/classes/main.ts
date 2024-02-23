@@ -25,3 +25,5 @@ const accountingCopy = { name: "DUMMY", describe: accounting.describe };
 // Property 'name' is missing in type '{ describe: (this: Department) => void; }' but required in type 'Department'.
 
 accountingCopy.describe();
+
+export {}
