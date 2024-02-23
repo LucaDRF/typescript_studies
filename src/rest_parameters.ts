@@ -14,3 +14,4 @@ function add(...numbers: number[]) { // definition must be an array
 const addResult = add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 console.log('oi', addResult);
 
+export {}

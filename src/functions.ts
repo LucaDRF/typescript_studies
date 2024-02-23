@@ -39,3 +39,4 @@ const result2 = definedFunction('2', '5');
 console.log(result1);
 console.log(result2);
 // result1 has type any because the Funcion was not specified, whereas result2 has the right type since its defined
+export {}
