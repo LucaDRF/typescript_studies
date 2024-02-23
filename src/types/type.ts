@@ -17,3 +17,20 @@ type Combinable = {
     secondElement: string | number,
     combinationType: 'to_number' | 'to_string' // union between two literals
 }
+
+// defining an array of defined objects
+type Person = {
+  name: string;
+  age: number;
+  gender: 'male' | 'female';
+}[];
+
+const personArray: Person = [{
+  name: 'Luca',
+  age: 20,
+  gender: 'male'
+}, {
+  name: 'Luca',
+  age: 20,
+  gender: 'male'
+}];
