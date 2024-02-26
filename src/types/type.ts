@@ -36,3 +36,10 @@ const personArray: Person = [{
 }];
 
 export {};
+
+// you can use template literals with type:
+type Name = `Mr. ${string}`;
+
+let name1: Name = `Mr. Smith`;  // ok
+let name2: Name = `Mr. A   GSDJKIGNIDAFNGBNDSAFIUJNGOIUDN `;  // ok
+// let name2: Name = `Mrs. Smith`;  error
