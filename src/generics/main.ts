@@ -13,3 +13,5 @@ const promise: Promise<string> = new Promise((resolve, reject) => {
 promise.then(result => {
     result.split(''); // same here
 });
+
+export {};
