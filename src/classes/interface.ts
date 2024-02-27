@@ -18,3 +18,5 @@ class Person implements Greetable, Age {
     }
 }
 
+export {}
+
