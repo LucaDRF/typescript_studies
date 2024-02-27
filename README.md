@@ -1,6 +1,6 @@
 Repository containing typescript annotations and examples of each type to study and remember whenever is needed.
 
-To start:
+To install the dependencies:
 ```
 npm install
 ```
