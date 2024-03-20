@@ -65,3 +65,5 @@ class Product {
   
 const p1 = new Product('Book', 19);
 const p2 = new Product('Book 2', 29);
+
+export {}
